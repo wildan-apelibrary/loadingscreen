@@ -44,7 +44,7 @@ const LoadingScreen = () => (
     <div className="text-white text-center max-w-md px-4">
       <div className="mb-8">
         <img
-          src="./src/assets/Logo.png"
+          src="./public/images/Logo.png"
           alt="AP Logo"
           className="w-32 h-32 mx-auto mb-4 animate-bounce"
         />
@@ -72,17 +72,17 @@ const Carousel = () => {
 
   const slides = [
     {
-      image: "./src/assets/1.jpg",
+      image: "./public/images/1.jpg",
       title: "Modern Library Experience",
       description: "Nikmati pengalaman perpustakaan modern yang nyaman",
     },
     {
-      image: "./src/assets/2.jpg",
+      image: "./public/images/2.jpg",
       title: "Easy Book Management",
       description: "Kelola koleksi buku dengan mudah dan efisien",
     },
     {
-      image: "./src/assets/3.jpg",
+      image: "./public/images/3.jpg",
       title: "Digital Innovation",
       description: "Inovasi digital untuk perpustakaan masa depan",
     },
