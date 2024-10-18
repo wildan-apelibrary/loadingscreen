@@ -44,7 +44,7 @@ const LoadingScreen = () => (
     <div className="text-white text-center max-w-md px-4">
       <div className="mb-8">
         <img
-          src="https://github.com/wildan-apelibrary/loadingscreen/blob/4cf68ff35b2eb340abe6cc089046fb6a269bf81b/images/Logo.png"
+          src="logo.png"
           alt="AP Logo"
           className="w-32 h-32 mx-auto mb-4 animate-bounce"
         />
@@ -72,20 +72,17 @@ const Carousel = () => {
 
   const slides = [
     {
-      image:
-        "https://github.com/wildan-apelibrary/loadingscreen/blob/4cf68ff35b2eb340abe6cc089046fb6a269bf81b/images/1.jpg",
+      image: "g1.jpg",
       title: "Modern Library Experience",
       description: "Nikmati pengalaman perpustakaan modern yang nyaman",
     },
     {
-      image:
-        "https://github.com/wildan-apelibrary/loadingscreen/blob/4cf68ff35b2eb340abe6cc089046fb6a269bf81b/images/2.jpg",
+      image: "g2.jpg",
       title: "Easy Book Management",
       description: "Kelola koleksi buku dengan mudah dan efisien",
     },
     {
-      image:
-        "https://github.com/wildan-apelibrary/loadingscreen/blob/4cf68ff35b2eb340abe6cc089046fb6a269bf81b/images/3.jpg",
+      image: "g3.jpg",
       title: "Digital Innovation",
       description: "Inovasi digital untuk perpustakaan masa depan",
     },
@@ -219,11 +216,7 @@ const LibraryHeroSection = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/2 p-8 lg:p-12">
             <div className="flex items-center mb-6">
-              <img
-                src="https://github.com/wildan-apelibrary/loadingscreen/blob/4cf68ff35b2eb340abe6cc089046fb6a269bf81b/images/Logo.png"
-                alt="AP Logo"
-                className="w-20 h-20 mr-3"
-              />
+              <img src="logo.png" alt="AP Logo" className="w-20 h-20 mr-3" />
               <h2 className="text-2xl font-bold text-indigo-600">
                 AP E-Library
               </h2>
