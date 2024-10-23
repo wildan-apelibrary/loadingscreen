@@ -264,7 +264,7 @@ const LibraryHeroSection = () => {
               ))}
             </div>
             <button
-              className="mt-10 bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
+              className="mt-10 bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
               onClick={() =>
                 (window.location.href = "http://bit.ly/apelibrary")
               }
