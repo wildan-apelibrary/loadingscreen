@@ -40,7 +40,7 @@ const LoadingDots = () => {
 };
 
 const LoadingScreen = () => (
-  <div className="fixed inset-0 bg-indigo-600 flex flex-col items-center justify-center z-50">
+  <div className="fixed inset-0 bg-blue-600 flex flex-col items-center justify-center z-50">
     <div className="text-white text-center max-w-md px-4">
       <div className="mb-8">
         <img
@@ -207,7 +207,7 @@ const LibraryHeroSection = () => {
   }
 
   return (
-    <div className="min-h-screen bg-indigo-600 flex items-center justify-center p-4 overflow-hidden">
+    <div className="min-h-screen bg-blue-600 flex items-center justify-center p-4 overflow-hidden">
       <div
         className={`max-w-6xl w-full bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-1000 ease-out ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
@@ -264,7 +264,7 @@ const LibraryHeroSection = () => {
               ))}
             </div>
             <button
-              className="mt-10 bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
+              className="mt-10 bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
               onClick={() =>
                 (window.location.href = "http://bit.ly/apelibrary")
               }
