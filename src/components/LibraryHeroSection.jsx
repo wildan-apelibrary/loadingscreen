@@ -207,7 +207,7 @@ const LibraryHeroSection = () => {
   }
 
   return (
-    <div className="min-h-screen bg-indigo-600 flex items-center justify-center p-4 overflow-hidden">
+    <div className="min-h-screen bg-blue-600 flex items-center justify-center p-4 overflow-hidden">
       <div
         className={`max-w-6xl w-full bg-white rounded-2xl shadow-2xl overflow-hidden transform transition-all duration-1000 ease-out ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
