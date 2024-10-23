@@ -40,7 +40,7 @@ const LoadingDots = () => {
 };
 
 const LoadingScreen = () => (
-  <div className="fixed inset-0 bg-indigo-600 flex flex-col items-center justify-center z-50">
+  <div className="fixed inset-0 bg-blue-600 flex flex-col items-center justify-center z-50">
     <div className="text-white text-center max-w-md px-4">
       <div className="mb-8">
         <img
